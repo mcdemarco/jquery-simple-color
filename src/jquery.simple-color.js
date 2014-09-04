@@ -288,7 +288,7 @@
 
               // If an onSelect callback function is defined then excecute it.
               if (options.onSelect) {
-                options.onSelect(this.id, element);
+                options.onSelect(this.id, event.target);
               }
             });
           }
