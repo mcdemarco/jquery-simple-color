@@ -149,7 +149,8 @@
       'top':              0,
       'left':             options.boxWidth,
       'position':         'absolute',
-      'background-color': '#fff'
+      'background-color': '#fff',
+      'box-sizing':       'content-box'
     }, options.chooserCSS || {});
 
     // Custom CSS for the display box, which relies on previously defined options.
