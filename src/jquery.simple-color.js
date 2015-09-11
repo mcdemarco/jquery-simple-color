@@ -147,7 +147,7 @@
       'width':            options.totalWidth,
       'height':           options.totalHeight,
       'top':              0,
-      'left':             options.boxWidth,
+      'left':             (options.insert == 'before' ? -1 * options.totalWidth - 10 : options.boxWidth),
       'position':         'absolute',
       'background-color': '#fff',
       'box-sizing':       'content-box'
